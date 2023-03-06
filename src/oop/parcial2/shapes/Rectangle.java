@@ -6,6 +6,9 @@ public class Rectangle extends Shape{
     public Rectangle(){
         super("Rectangulo");
     }
+    public String toString() {
+        return "█";
+    }
     public Rectangle(double base, double height){
         this();
         this.base = base;

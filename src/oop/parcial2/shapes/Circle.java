@@ -5,6 +5,9 @@ public class Circle extends Shape{
     public Circle(){
         super("Circulo");
     }
+    public String toString() {
+        return "○";
+    }
     public Circle(double radio){
         this();
         this.radio = radio;

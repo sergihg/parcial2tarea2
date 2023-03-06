@@ -6,6 +6,9 @@ public class Triangle extends Shape{
     public Triangle(){
         super("Triangulo");
     }
+    public String toString() {
+        return "▲";
+    }
     public Triangle(double base, double height){
         this();
         this.base = base;
